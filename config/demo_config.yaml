@@ -1,0 +1,19 @@
+project:
+  name: AutoDriveStack
+  version: "0.1.0"
+
+planning:
+  lane_width: 3.5
+  sample_step: 0.5
+  initial_x: 0.0
+  initial_y: 0.0
+  target_x: 120.0
+  target_y: 0.0
+
+vehicle:
+  speed: 10.0
+  steering_limit: 0.8
+
+visualization:
+  save_plot: true
+  output_file: "data/samples/demo_path.png"
